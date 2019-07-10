@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-modular-service-layer",
+  "version": "1.0.0",
+  "description": "Demo of a modular service layer using knex",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "knex": "^0.18.3",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/betaflag/nodejs-modular-service-layer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "service"
+  ],
+  "author": "Nicolas Lupien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betaflag/nodejs-modular-service-layer/issues"
+  },
+  "homepage": "https://github.com/betaflag/nodejs-modular-service-layer#readme"
+}

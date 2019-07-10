@@ -1,0 +1,1 @@
+This repository contains a demo of a unit-tested modular service layer for handling business logic and validation (with [@hapi/joi](https://github.com/hapijs/joi)) on top of a data layer created with [knex](https://knexjs.org/).
